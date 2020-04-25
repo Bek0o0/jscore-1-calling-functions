@@ -1,13 +1,20 @@
-function birthday(A) {
+//This function has been made to get the uers age and calculate their year of birth.
+function (A) {
   return 2020 - A;
 }
 
-function calyear(name, age) {
-  const yearofbirth = birthday(25);
+
+Calculatetheyear
+//This function has been made to call the Calculatetheyear  to get the result which's the uer's year of birth and get their name and then concatenate this two value with formated order
+
+function Concatenatet(name) {
+  const Yearofbirth = Calculatetheyear(25); // Here is calling Calculatetheyear function to bass the output to Yearofbirth const.
+
   console.log(
-    "My name is " + `${name}` + " and I was born in " + `${yearofbirth}`
+    "My name is " + `${name}` + " and I was born in " + `${Yearofbirth}`
   );
-  return name + yearofbirth;
+  
+  return name + Yearofbirth;
 }
 
-calyear("Bekoo", 25);
+Concatenatet("Bekoo", 25);
